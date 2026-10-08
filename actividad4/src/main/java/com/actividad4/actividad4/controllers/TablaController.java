@@ -9,8 +9,8 @@ public class TablaController {
 
     @GetMapping("/tabla")
     public String tabla(
-            @RequestParam(name = "filas", required = false) String filas,
-            @RequestParam(name = "columnas", required = false) String columnas
+            @RequestParam(name = "filas") String filas,
+            @RequestParam(name = "columnas") String columnas
     ) {
 
         int num_filas = 1;
