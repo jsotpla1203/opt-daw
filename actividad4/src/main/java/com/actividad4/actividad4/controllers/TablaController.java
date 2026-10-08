@@ -18,8 +18,15 @@ public class TablaController {
         String html;
 
         try {
-            if (filas != null || columnas != null){
+            if (filas != null){
                 num_filas = Integer.parseInt(filas);
+            }
+        }catch (NumberFormatException e){
+            System.out.println(e);
+        }
+
+        try {
+            if (columnas != null){
                 num_columnas = Integer.parseInt(columnas);
             }
         }catch (NumberFormatException e){
