@@ -3,12 +3,13 @@ package com.actividad5.actividad5;
 public class Cliente {
     String nombre;
     String correo;
-    Integer telefono;
+    String telefono;
+
 
     public Cliente() {
     }
 
-    public Cliente(String nombre, String correo, Integer telefono) {
+    public Cliente(String nombre, String correo, String telefono) {
         this.nombre = nombre;
         this.correo = correo;
         this.telefono = telefono;
@@ -30,11 +31,11 @@ public class Cliente {
         this.nombre = nombre;
     }
 
-    public Integer getTelefono() {
+    public String getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(Integer telefono) {
+    public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
 }
