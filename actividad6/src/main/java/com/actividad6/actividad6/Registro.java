@@ -4,12 +4,12 @@ public class Registro {
     String nombre;
     String apellido;
     String correo;
-    Integer contraseña;
+    String contraseña;
 
     public Registro() {
     }
 
-    public Registro(String nombre, String apellido, String correo, Integer contraseña) {
+    public Registro(String nombre, String apellido, String correo, String contraseña) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.correo = correo;
@@ -24,6 +24,14 @@ public class Registro {
         this.nombre = nombre;
     }
 
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
     public String getCorreo() {
         return correo;
     }
@@ -32,19 +40,11 @@ public class Registro {
         this.correo = correo;
     }
 
-    public Integer getContraseña() {
+    public String getContraseña() {
         return contraseña;
     }
 
-    public void setContraseña(Integer contraseña) {
+    public void setContraseña(String contraseña) {
         this.contraseña = contraseña;
-    }
-
-    public String getApellido() {
-        return apellido;
-    }
-
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
     }
 }
