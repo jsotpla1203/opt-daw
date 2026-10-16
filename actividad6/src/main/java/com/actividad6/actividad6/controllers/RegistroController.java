@@ -13,6 +13,8 @@ import java.util.Random;
 
 @Controller
 public class RegistroController {
+    Map<String, String> contraseña = new HashMap<>();
+
     @GetMapping("/registro")
     public String mostrarFormulario(){
         return "formulario";
@@ -21,6 +23,8 @@ public class RegistroController {
     @PostMapping("/registro")
     @ResponseBody
     public String procesarFormulario(@ModelAttribute Registro registro, Map map){
+        String resultado;
+
         if (registro.getNombre().isEmpty()){
             return "Escribe el nombre";
         }
@@ -31,9 +35,9 @@ public class RegistroController {
             return "Escribe el correo";
         }
 
-        Boolean isGenerated = false;
+        resultado = "Se ha confirmado el registro con el nombre: " + registro.getNombre() + "  " + registro.getApellido() + " y con el correo " + registro.getCorreo();
+
         if (registro.getContraseña().length() < 6){
-            isGenerated = true;
 
             if (registro.getContraseña().isEmpty()){
                 Random randomNumbers = new Random();
@@ -41,14 +45,11 @@ public class RegistroController {
             }
 
             registro.setContraseña(String.format("%06d", Integer.parseInt(registro.getContraseña())));
+            resultado += " La contraseña generada es: " + registro.getContraseña();
         }
-        Map<String, String> contraseña = new HashMap<>();
         contraseña.put(registro.getCorreo(), registro.getContraseña());
 
 
-
-
-        return "Nombre; " + registro.getNombre() + " Apellido; " + registro.getApellido() + " Correo; " + registro.getCorreo() + " Contraseña generada; " + contraseña;
-
+        return resultado;
     }
 }
