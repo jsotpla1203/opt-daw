@@ -1,5 +1,6 @@
 package com.actividad6.actividad6.controllers;
 
+import com.actividad6.actividad6.Login;
 import com.actividad6.actividad6.Registro;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,7 +14,7 @@ import java.util.Random;
 
 @Controller
 public class RegistroController {
-    Map<String, String> contraseña = new HashMap<>();
+    static Map<String, String> contraseña = new HashMap<>();
 
     @GetMapping("/registro")
     public String mostrarFormulario(){
@@ -22,7 +23,7 @@ public class RegistroController {
 
     @PostMapping("/registro")
     @ResponseBody
-    public String procesarFormulario(@ModelAttribute Registro registro, Map map){
+    public String procesarFormulario(@ModelAttribute Registro registro){
         String resultado;
 
         if (registro.getNombre().isEmpty()){
@@ -41,7 +42,7 @@ public class RegistroController {
 
             if (registro.getContraseña().isEmpty()){
                 Random randomNumbers = new Random();
-                registro.setContraseña(String.format("%06d", randomNumbers.nextInt(999999)));
+                registro.setContraseña(String.format("%06d", randomNumbers.nextInt(1000000)));
             }
 
             registro.setContraseña(String.format("%06d", Integer.parseInt(registro.getContraseña())));
@@ -51,5 +52,19 @@ public class RegistroController {
 
 
         return resultado;
+    }
+
+    @GetMapping("/login")
+    public String mostrarLogin(){
+        return "inicio";
+    }
+
+    @PostMapping("/login")
+    @ResponseBody
+    public String procesarLogin(@ModelAttribute Login login){
+        String correo = login.getCorreo();
+        String contraseña = login.getContraseña();
+
+        if (contraseña.containsKey(registro.getCorreo()))
     }
 }
