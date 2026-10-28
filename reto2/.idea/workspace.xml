@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a4bc242-dfce-4ed2-b8e6-5ef547e95020" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../actividad5/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad5/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad5/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad5/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad5/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad5/src/main/java/com/actividad5/actividad5/Actividad5Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad5/src/main/java/com/actividad5/actividad5/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad5/src/main/java/com/actividad5/actividad5/Pedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad5/src/main/java/com/actividad5/actividad5/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad5/src/main/java/com/actividad5/actividad5/RespuestaPedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad5/src/main/java/com/actividad5/actividad5/controllers/PedidoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad5/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad5/src/test/java/com/actividad5/actividad5/Actividad5ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad6/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad6/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad6/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad6/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad6/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad6/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad6/src/main/java/com/actividad6/actividad6/Actividad6Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad6/src/main/java/com/actividad6/actividad6/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad6/src/main/java/com/actividad6/actividad6/Registro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad6/src/main/java/com/actividad6/actividad6/controllers/RegistroController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad6/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad6/src/main/resources/templates/formulario.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad6/src/main/resources/templates/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../actividad6/src/test/java/com/actividad6/actividad6/Actividad6ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto1/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto1/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto1/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto1/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto1/src/main/java/com/reto1/reto1/Compra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto1/src/main/java/com/reto1/reto1/Obra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto1/src/main/java/com/reto1/reto1/Respuesta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto1/src/main/java/com/reto1/reto1/Reto1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto1/src/main/java/com/reto1/reto1/controllers/TaquillaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto1/src/main/java/com/reto1/reto1/enums/Estado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto1/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto1/src/main/resources/templates/reserva.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto1/src/test/java/com/reto1/reto1/Reto1ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto3/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto3/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto3/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto3/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto3/src/main/java/com/reto3/reto3/Reto3Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto3/src/main/java/com/reto3/reto3/controllers/JuegosController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto3/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reto3/src/test/java/com/reto3/reto3/Reto3ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jsotpla1203&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jsotpla1203/opt-daw.git&quot;,
+    &quot;accountId&quot;: &quot;43e2df6f-b819-4f68-aad1-68fcd739a999&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3L67OTXWxr0AEVzG0bUXFtt9SHS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Reto2Application.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/opt-daw/reto2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\opt-daw\reto2\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a4bc242-dfce-4ed2-b8e6-5ef547e95020" name="Changes" comment="" />
+      <created>1792762632061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1792762632061</updated>
+    </task>
+    <servers />
+  </component>
+</project>

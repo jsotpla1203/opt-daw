@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form action="/prestamo" method="post">
+
+    <label for="libroId">Escribe el id del libro:</label>
+    <input type="number" id="libroId" name="libroId" required><br>
+
+    <label for="nombreSocio">Escribe el nombre del prestamo:</label>
+    <input type="text" id="nombreSocio" name="nombreSocio"><br>
+
+    <label for="diasPrestamo">Escribe los dias de prestamo:</label>
+    <input type="number" id="diasPrestamo" name="diasPrestamo" required><br>
+
+    <label for="carnetPremium">Carnet premium:</label>
+    <input type="checkbox" id="carnetPremium" name="carnetPremium"><br>
+
+    <button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>
