@@ -1,0 +1,31 @@
+package com.actividad5repaso.actividad5repaso.models;
+
+public class RespuestaPedido {
+    private String cliente;
+    private int totalProductos;
+    private Double precioTotal;
+    private String mensaje;
+
+    public RespuestaPedido(String cliente, int totalProductos, Double precioTotal, String mensaje) {
+        this.cliente = cliente;
+        this.totalProductos = totalProductos;
+        this.precioTotal = precioTotal;
+        this.mensaje = mensaje;
+    }
+
+    public String getCliente() {
+        return cliente;
+    }
+
+    public int getTotalProductos() {
+        return totalProductos;
+    }
+
+    public Double getPrecioTotal() {
+        return precioTotal;
+    }
+
+    public String getMensaje() {
+        return mensaje;
+    }
+}
