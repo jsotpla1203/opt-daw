@@ -1,0 +1,102 @@
+package com.actividad2.actividad2.models;
+
+public class Libro {
+    private Long id;
+    private String titulo;
+    private String autor;
+    private String isbn;
+    private int anioPublicacion;
+    private boolean prestado;
+    private String notasInternas;
+
+    public Libro() {
+    }
+
+    public Libro(Long id, String titulo, String autor, String isbn, int anioPublicacion) {
+        this.id = id;
+        this.titulo = titulo;
+        this.autor = autor;
+        this.isbn = isbn;
+        this.anioPublicacion = anioPublicacion;
+        this.prestado = false;
+        this.notasInternas = "";
+    }
+
+    public boolean esValido() {
+        return titulo != null && !titulo.trim().isEmpty()
+                && autor != null && !autor.trim().isEmpty()
+                && anioPublicacion > 0;
+    }
+
+    public boolean prestar() {
+        if (this.prestado) {
+            return false;
+        }
+        this.prestado = true;
+        return true;
+    }
+
+    public boolean devolver() {
+        if (!this.prestado) {
+            return false;
+        }
+        this.prestado = false;
+        return true;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+
+    public int getAnioPublicacion() {
+        return anioPublicacion;
+    }
+
+    public void setAnioPublicacion(int anioPublicacion) {
+        this.anioPublicacion = anioPublicacion;
+    }
+
+    public boolean isPrestado() {
+        return prestado;
+    }
+
+    public void setPrestado(boolean prestado) {
+        this.prestado = prestado;
+    }
+
+    public String getNotasInternas() {
+        return notasInternas;
+    }
+
+    public void setNotasInternas(String notasInternas) {
+        this.notasInternas = notasInternas;
+    }
+}
